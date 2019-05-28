@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VideoList"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/video1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+        <ImageView
+            android:src="@drawable/b3"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp">
+            <TextView
+                android:id="@+id/txtVideo1"
+                android:text="Nhắm mắt thấy mùa hè - Nguyên Hà"
+                android:textColor="#000"
+                android:padding="5dp"
+                android:textSize="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="03:22"
+                android:textColor="#0D2BEB"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/video2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+        <ImageView
+            android:src="@drawable/b2"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp">
+            <TextView
+                android:id="@+id/txtVideo2"
+                android:text="Tsubasa giấc mơ sân cỏ - Tập 19 cú sút lái bóng"
+                android:textColor="#000"
+                android:padding="5dp"
+                android:textSize="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="01:22"
+                android:textColor="#0D2BEB"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/video3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp">
+        <ImageView
+            android:src="@drawable/b1"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp">
+            <TextView
+                android:id="@+id/txtVideo3"
+                android:text="IF - Lâm Bảo Ngọc | Vòng giấu mặt The Voice 2019"
+                android:textColor="#000"
+                android:padding="5dp"
+                android:textSize="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="03:22"
+                android:textColor="#0D2BEB"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
