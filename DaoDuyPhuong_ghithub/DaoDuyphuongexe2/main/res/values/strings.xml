@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application1</string>
+    <string-array name="Tien">
+        <item>0</item>
+        <item>10000</item>
+        <item>50000</item>
+        <item>100000</item>
+    </string-array>
+</resources>
